@@ -13,12 +13,18 @@
 - 栅格恢复结果、对比图、不确定性图及 JSON 报告
 - GIS 矢量导出（SHP、TIF、颜色映射及处理报告）
 
-## 下载和启动
+## 下载 MapVectorizer V1.9
 
-1. 前往仓库的 **Releases** 页面，下载 `MapVectorizer_SuperLite2.zip`（发布后可用）。
+**[点击这里下载 Windows 版本（GitHub Releases）](https://github.com/LZLLZL777/MapVectorizer/releases/latest)**
+
+在 Releases 页面展开 **Assets**，下载 `MapVectorizer_SuperLite2.zip`。
+
+## 安装和启动
+
+1. 下载完整的 Windows ZIP 安装包。
 2. 解压整个 ZIP，保留 `_internal`、`sample` 等文件夹结构。
 3. 在 Windows 10/11 上双击 `MapVectorizer_SuperLite2.exe`。
-4. 阅读 [V1.9 使用手册](docs/MapVectorizer_V1.9_使用手册.pdf)（上传后可用）。
+4. 参考 V1.9 使用手册（上传至仓库 `docs` 目录后提供链接）。
 
 首次启动可能需要等待依赖加载。建议先用小范围研究区测试。软件生成的 SHP 使用本地像素坐标，若要与真实地理数据叠加，需要另行进行地理配准。
 
